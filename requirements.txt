@@ -1,16 +1,6 @@
 streamlit
-python-dotenv # for working on load_dotenv
+python-dotenv  # for working on load_dotenv
 google-genai
 google-generativeai
-pillow
+Pillow
 gTTS
-
-
-
-# pip install streamlit
-# pip install streamlit
-# pip install python-dotenv
-# pip install google-genai
-# pip install google-generativeai
-# pip install pillow
-# pip install gTTS
