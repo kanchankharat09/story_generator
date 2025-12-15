@@ -51,7 +51,7 @@ def create_advanced_prompt(style):
 def generate_story_from_images(images, style):
 
     response = client.models.generate_content(
-        model="gemini-2.5-flash-lite",
+        model="gemini-2.5-flash",
         contents=[images,create_advanced_prompt(style)]
     )
     return  response.text
@@ -69,6 +69,7 @@ def narrate_story(story_text):
         return audio_fp
     except Exception as e:
         return f"An unexpected error  occured during the API call"
+
 
 
 
